@@ -1,0 +1,31 @@
+{
+	"name": "simple-webpack-template",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BrickBoss97/[REPO-NAME].git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"watch": "webpack --watch",
+		"start": "webpack serve",
+		"build": "webpack",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"css-loader": "^7.1.2",
+		"gh-pages": "^6.1.1",
+		"html-loader": "^5.0.0",
+		"html-webpack-plugin": "^5.6.0",
+		"style-loader": "^4.0.0",
+		"webpack": "^5.93.0",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^5.0.4"
+	}
+}
