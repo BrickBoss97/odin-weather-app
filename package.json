@@ -1,11 +1,12 @@
 {
-	"name": "simple-webpack-template",
+	"name": "odin-weather-app",
 	"version": "1.0.0",
-	"description": "",
 	"main": "index.js",
+	"homepage": "",
+	"description": "",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/BrickBoss97/[REPO-NAME].git"
+		"url": "git+https://github.com/BrickBoss97/odin-weather-app.git"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -19,8 +20,12 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"@eslint/js": "^9.7.0",
 		"css-loader": "^7.1.2",
+		"date-fns": "^3.6.0",
+		"eslint": "^9.7.0",
 		"gh-pages": "^6.1.1",
+		"globals": "^15.8.0",
 		"html-loader": "^5.0.0",
 		"html-webpack-plugin": "^5.6.0",
 		"style-loader": "^4.0.0",

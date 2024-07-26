@@ -3,8 +3,30 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
 		<link rel="stylesheet" href="./styles.css" />
+		<title>Weather App</title>
 	</head>
-	<body></body>
+	<body>
+		<div class="background-filter">
+			<div class="main-container">
+				<div class="top-bar">
+					<div class="search-bar">
+						<button class="search-bar__button">
+							<img src="./assets/images/magnify.svg" alt="magnify" />
+						</button>
+						<input
+							class="search-bar__input"
+							type="text"
+							placeholder="Search for location.."
+						/>
+					</div>
+					<div class="toggle-button" id="toggleButton">
+						<span class="label-f active">F°</span>
+						<span class="label-c">C°</span>
+					</div>
+				</div>
+				<div class="main-content"></div>
+			</div>
+		</div>
+	</body>
 </html>
