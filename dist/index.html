@@ -7,6 +7,26 @@
 		<title>Weather App</title>
 	</head>
 	<body>
-		<div class="main-pattern"></div>
+		<div class="background-filter">
+			<div class="main-container">
+				<div class="top-bar">
+					<div class="search-bar">
+						<button class="search-bar__button">
+							<img src="54ff7732bb1a5ff166c6.svg" alt="magnify" />
+						</button>
+						<input
+							class="search-bar__input"
+							type="text"
+							placeholder="Search for location.."
+						/>
+					</div>
+					<div class="toggle-button" id="toggleButton">
+						<span class="label-f active">F°</span>
+						<span class="label-c">C°</span>
+					</div>
+				</div>
+				<div class="main-content"></div>
+			</div>
+		</div>
 	<script defer src="main.js"></script></body>
 </html>
